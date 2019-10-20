@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" name="BestPracticesPOMHomework.dll" fullname="C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\bin\Debug\netcoreapp2.1\BestPracticesPOMHomework.dll" testcasecount="10" result="Failed" total="10" passed="9" failed="1" inconclusive="0" skipped="0" asserts="18" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-10-20 19:50:32Z" end-time="2019-10-20 19:52:01Z" duration="89.327210">
+  <command-line><![CDATA[C:\Users\Darky\.nuget\packages\microsoft.testplatform.testhost\16.2.0\lib\netstandard1.5\testhost.dll --port 61546 --endpoint 127.0.0.1:061546 --role client --parentprocessid 6032 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.EmptyAddress</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.EmptyAddressMustFail</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.EmptyEmail</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.EmptyFirstAndLastName</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.EmptyFirstName</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.EmptyPassword</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.IncorrectPostCode</test>
+      <test>BestPracticesPOMHomework.AutomationPracticePOM.IsRegistrationPageIsOpened</test>
+      <test>BestPracticesPOMHomework.GoogleSearchPOM.CheckFirstResultPageAddressAndTitle</test>
+      <test>BestPracticesPOMHomework.QAAutoPOM.CheckPageTitle</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1014" name="BestPracticesPOMHomework.dll" fullname="C:/Users/Darky/Documents/QAHomeworks/BestPracticesPOMHomework/BestPracticesPOMHomework/bin/Debug/netcoreapp2.1/BestPracticesPOMHomework.dll" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2019-10-20 19:50:32Z" end-time="2019-10-20 19:52:01Z" duration="89.284765" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows 10.0.18362 " platform="Win32NT" cwd="C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\bin\Debug\netcoreapp2.1" machine-name="DESKTOP-1J7G2HK" user="Darky" user-domain="DESKTOP-1J7G2HK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="1456814206" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\bin\Debug\netcoreapp2.1" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="13252" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1015" name="BestPracticesPOMHomework" fullname="BestPracticesPOMHomework" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2019-10-20 19:50:32Z" end-time="2019-10-20 19:52:01Z" duration="89.277518" total="10" passed="9" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="18">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="AutomationPracticePOM" fullname="BestPracticesPOMHomework.AutomationPracticePOM" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2019-10-20 19:50:32Z" end-time="2019-10-20 19:51:32Z" duration="59.673695" total="8" passed="7" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="15">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="0-1007" name="EmptyAddress" fullname="BestPracticesPOMHomework.AutomationPracticePOM.EmptyAddress" methodname="EmptyAddress" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="1214940078" result="Passed" start-time="2019-10-20 19:50:41Z" end-time="2019-10-20 19:50:49Z" duration="8.000779" asserts="2">
+          <properties>
+            <property name="Description" value="Empty 'Address' field" />
+          </properties>
+        </test-case>
+        <test-case id="0-1006" name="EmptyAddressMustFail" fullname="BestPracticesPOMHomework.AutomationPracticePOM.EmptyAddressMustFail" methodname="EmptyAddressMustFail" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="1108612770" result="Failed" start-time="2019-10-20 19:50:49Z" end-time="2019-10-20 19:50:56Z" duration="6.061267" asserts="2">
+          <properties>
+            <property name="Description" value="Empty 'Address' field, wrong element name" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Expected string length 20 but was 21. Strings differ at index 7.
+  Expected: "address is required."
+  But was:  "address1 is required."
+  ------------------^
+]]></message>
+            <stack-trace><![CDATA[   at BestPracticesPOMHomework.Pages.AuthenticationPage.Assert1EmptyField(String element_name) in C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\Pages\AutomationPractice\AuthenticationPage\AuthenticationPage.Methods.cs:line 14
+   at BestPracticesPOMHomework.AutomationPracticePOM.EmptyAddressMustFail() in C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\Tests\AutomationPracticePOM.cs:line 86
+]]></stack-trace>
+          </failure>
+          <assertions>
+            <assertion result="Failed">
+              <message><![CDATA[  Expected string length 20 but was 21. Strings differ at index 7.
+  Expected: "address is required."
+  But was:  "address1 is required."
+  ------------------^
+]]></message>
+              <stack-trace><![CDATA[   at BestPracticesPOMHomework.Pages.AuthenticationPage.Assert1EmptyField(String element_name) in C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\Pages\AutomationPractice\AuthenticationPage\AuthenticationPage.Methods.cs:line 14
+   at BestPracticesPOMHomework.AutomationPracticePOM.EmptyAddressMustFail() in C:\Users\Darky\Documents\QAHomeworks\BestPracticesPOMHomework\BestPracticesPOMHomework\Tests\AutomationPracticePOM.cs:line 86
+]]></stack-trace>
+            </assertion>
+          </assertions>
+        </test-case>
+        <test-case id="0-1003" name="EmptyEmail" fullname="BestPracticesPOMHomework.AutomationPracticePOM.EmptyEmail" methodname="EmptyEmail" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="1246522697" result="Passed" start-time="2019-10-20 19:50:56Z" end-time="2019-10-20 19:51:02Z" duration="6.305793" asserts="2">
+          <properties>
+            <property name="Description" value="Clear 'Email' field" />
+          </properties>
+        </test-case>
+        <test-case id="0-1008" name="EmptyFirstAndLastName" fullname="BestPracticesPOMHomework.AutomationPracticePOM.EmptyFirstAndLastName" methodname="EmptyFirstAndLastName" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="1719879100" result="Passed" start-time="2019-10-20 19:51:02Z" end-time="2019-10-20 19:51:08Z" duration="6.292775" asserts="3">
+          <properties>
+            <property name="Description" value="Empty 'First name' and 'Last name' fields" />
+          </properties>
+        </test-case>
+        <test-case id="0-1002" name="EmptyFirstName" fullname="BestPracticesPOMHomework.AutomationPracticePOM.EmptyFirstName" methodname="EmptyFirstName" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="804929771" result="Passed" start-time="2019-10-20 19:51:08Z" end-time="2019-10-20 19:51:14Z" duration="5.820172" asserts="2">
+          <properties>
+            <property name="Description" value="Empty 'First name' field" />
+          </properties>
+        </test-case>
+        <test-case id="0-1004" name="EmptyPassword" fullname="BestPracticesPOMHomework.AutomationPracticePOM.EmptyPassword" methodname="EmptyPassword" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="187238968" result="Passed" start-time="2019-10-20 19:51:14Z" end-time="2019-10-20 19:51:20Z" duration="5.922933" asserts="2">
+          <properties>
+            <property name="Description" value="Empty 'Password' field" />
+          </properties>
+        </test-case>
+        <test-case id="0-1005" name="IncorrectPostCode" fullname="BestPracticesPOMHomework.AutomationPracticePOM.IncorrectPostCode" methodname="IncorrectPostCode" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="1981480862" result="Passed" start-time="2019-10-20 19:51:20Z" end-time="2019-10-20 19:51:26Z" duration="6.437809" asserts="1">
+          <properties>
+            <property name="Description" value="Incorrect 'Zip/Postal Code' value" />
+          </properties>
+        </test-case>
+        <test-case id="0-1001" name="IsRegistrationPageIsOpened" fullname="BestPracticesPOMHomework.AutomationPracticePOM.IsRegistrationPageIsOpened" methodname="IsRegistrationPageIsOpened" classname="BestPracticesPOMHomework.AutomationPracticePOM" runstate="Runnable" seed="915531758" result="Passed" start-time="2019-10-20 19:51:26Z" end-time="2019-10-20 19:51:32Z" duration="5.411807" asserts="1" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1009" name="GoogleSearchPOM" fullname="BestPracticesPOMHomework.GoogleSearchPOM" classname="BestPracticesPOMHomework.GoogleSearchPOM" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-10-20 19:51:32Z" end-time="2019-10-20 19:51:44Z" duration="12.708462" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-case id="0-1010" name="CheckFirstResultPageAddressAndTitle" fullname="BestPracticesPOMHomework.GoogleSearchPOM.CheckFirstResultPageAddressAndTitle" methodname="CheckFirstResultPageAddressAndTitle" classname="BestPracticesPOMHomework.GoogleSearchPOM" runstate="Runnable" seed="2138709973" result="Passed" start-time="2019-10-20 19:51:42Z" end-time="2019-10-20 19:51:44Z" duration="2.768405" asserts="2" />
+      </test-suite>
+      <test-suite type="TestFixture" id="0-1011" name="QAAutoPOM" fullname="BestPracticesPOMHomework.QAAutoPOM" classname="BestPracticesPOMHomework.QAAutoPOM" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-10-20 19:51:44Z" end-time="2019-10-20 19:52:01Z" duration="16.886701" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <test-case id="0-1012" name="CheckPageTitle" fullname="BestPracticesPOMHomework.QAAutoPOM.CheckPageTitle" methodname="CheckPageTitle" classname="BestPracticesPOMHomework.QAAutoPOM" runstate="Runnable" seed="1060154298" result="Passed" start-time="2019-10-20 19:51:54Z" end-time="2019-10-20 19:52:01Z" duration="7.040850" asserts="1" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
